@@ -18,10 +18,17 @@ Program ini mengurutkan karakter dalam sebuah string menjadi huruf vokal dan kon
 ```javascript
 
 // Test cases
+// Test cases
 let s1 = "Sample Case";
 let s2 = "Next Case";
 
-let result1 = sortCharacters(s
+let result1 = sortCharacters(s1);
+console.log(`Vowel Characters: ${result1.vowels}`);
+console.log(`Consonant Characters: ${result1.consonants}`);
+
+let result2 = sortCharacters(s2);
+console.log(`Vowel Characters: ${result2.vowels}`);
+console.log(`Consonant Characters: ${result2.consonants}`);
 
 ```
 
